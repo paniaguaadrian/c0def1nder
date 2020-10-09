@@ -59,3 +59,10 @@ The **MVP** will cover the following:
 [API Description & Documentation](https://docs.dev.to/api/index.html)
 
 [API Link](https://dev.to/api/articles?tag=)
+
+### Wireframes
+
+[Home page Mobile](https://ibb.co/sF995zL)
+[Home page Sign In, sign up](https://ibb.co/0VMMP3T)
+[Posts from blogs page](https://ibb.co/54w0yGX)
+[Books page](https://ibb.co/pw8ctBK)
