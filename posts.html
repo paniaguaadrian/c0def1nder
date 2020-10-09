@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>c0def1nder - Best Posts!</title>
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="app/scss/style.css" />
+
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header container">
+      <div class="overlay has-fade"></div>
+      <nav class="navbar container--pall flex flex-dir-row flex-jc-sb">
+        <div class="navbar__logo container-pall">
+          <a href="index.html">
+            <h1 class="navbar__logotext">c0def1nder</h1>
+          </a>
+        </div>
+        <div class="hmb__menu">
+          <a id="btnHamburger" href="#" class="header__toggle hide-for-desktop">
+            <span></span>
+            <span></span>
+            <span></span>
+          </a>
+        </div>
+        <div class="navbar__links flex container--pall hide-for-mobile">
+          <a href="index.html">Home</a>
+          <a href="posts.html">Posts</a>
+          <a href="#">Books</a>
+          <a href="#">FAQ</a>
+          <a class="header__buttons" href="#">Sign Up</a>
+          <a class="header__buttons" href="#">Log In</a>
+        </div>
+      </nav>
+
+      <div class="header__menu has-fade hide-for-desktop">
+        <a href="index.html">Home</a>
+        <a href="posts.html">Posts</a>
+        <a href="#">Books</a>
+        <a href="#">FAQ</a>
+        <div>
+          <a class="header__buttons" href="#">Sign Up</a>
+          <a class="header__buttons" href="#">Log In</a>
+        </div>
+      </div>
+    </header>
+
+    <section class="posts_header">
+      <div class="container container--pall flex flex-jc-c">
+        <h1>Start learning today with the best blog posts on the network!<h1>
+      </div>
+    </section>
+
+    <section class="buttons_place">
+      <div class="buttons_container">
+        <button
+          class="btn_post_tags btn_post_style"
+          onclick="getPosts('JavaScript')"
+        >
+          JavaScript
+        </button>
+
+        <button class="btn_post_tags btn_post_style" onclick="getPosts('HTML')">
+          HTML
+        </button>
+
+        <button class="btn_post_tags btn_post_style" onclick="getPosts('CSS')">
+          CSS
+        </button>
+        <button
+          class="btn_post_tags btn_post_style"
+          onclick="getPosts('BackEnd')"
+        >
+          Back end
+        </button>
+
+        <button class="btn_post_tags btn_post_style" onclick="getPosts('MERN')">
+          MERN
+        </button>
+
+        <button
+          class="btn_post_tags btn_post_style"
+          onclick="getPosts('MongoDB')"
+        >
+          MongoDB
+        </button>
+        <button
+          class="btn_post_tags btn_post_style"
+          onclick="getPosts('ExpressJs')"
+        >
+          ExpressJs
+        </button>
+
+        <button
+          class="btn_post_tags btn_post_style"
+          onclick="getPosts('NodeJs')"
+        >
+          NodeJs
+        </button>
+
+        <button
+          class="btn_post_tags btn_post_style"
+          onclick="getPosts('FullStack')"
+        >
+          FullStack
+        </button>
+        <button class="btn_post_tags btn_post_style" onclick="getPosts('Git')">
+          Git
+        </button>
+
+        <button
+          class="btn_post_tags btn_post_style"
+          onclick="getPosts('GitHub')"
+        >
+          GitHub
+        </button>
+
+        <button
+          class="btn_post_tags btn_post_style"
+          onclick="getPosts('Heroku')"
+        >
+          Heroku
+        </button>
+        <button
+          class="btn_post_tags btn_post_style"
+          onclick="getPosts('Design')"
+        >
+          Design
+        </button>
+
+        <button class="btn_post_tags btn_post_style" onclick="getPosts('Ux')">
+          Ux
+        </button>
+
+        <button class="btn_post_tags btn_post_style" onclick="getPosts('Ui')">
+          Ui
+        </button>
+        <button
+          class="btn_post_tags btn_post_style"
+          onclick="getPosts('FrontEnd')"
+        >
+          Front end
+        </button>
+
+        <button class="btn_post_tags btn_post_style" onclick="getPosts('SCSS')">
+          SCSS
+        </button>
+
+        <button
+          class="btn_post_tags btn_post_style"
+          onclick="getPosts('React')"
+        >
+          React
+        </button>
+        <button
+          class="btn_post_tags btn_post_style"
+          onclick="getPosts('Tutorial')"
+        >
+          Tutorial
+        </button>
+
+        <button
+          class="btn_post_tags btn_post_style"
+          onclick="getPosts('Beginners')"
+        >
+          Beginners
+        </button>
+      </div>
+    </section>
+
+    <section class="articles_showing_up">
+      <h1 class="articles_header">
+        Let's take a look at this <span id="tag"></span> posts!
+      </h1>
+      <div id="articles" class="articles_container"></div>
+    </section>
+
+    <script src="app/js/main.js"></script>
+    <script src="app/js/devtoApi.js"></script>
+  </body>
+</html>
