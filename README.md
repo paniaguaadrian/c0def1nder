@@ -52,7 +52,7 @@ The **MVP** will cover the following:
 
 ### Git
 
-[Gihub Repo URL](https://github.com/fx2000/whats-for-dinner)
+[Gihub Repo URL](https://github.com/paniaguaadrian/c0def1nder)
 
 ### Dev.to API
 
