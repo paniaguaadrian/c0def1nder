@@ -20,7 +20,7 @@
       <nav class="navbar container--pall flex flex-dir-row flex-jc-sb">
         <div class="navbar__logo container-pall">
           <a href="index.html">
-            <h1 class="navbar__logotext">c0def1nder</h1>
+            <h1 class="navbar__logotext">c<span>0</span>def<span>1</span>nder</h1>
           </a>
         </div>
         <div class="hmb__menu">
@@ -53,13 +53,16 @@
     </header>
 
     <section class="posts_header">
-      <div class="container container--pall flex flex-jc-c">
-        <h1>Start learning today with the best blog posts on the network!<h1>
+      <div class="posts_container container container--pall flex flex-jc-c flex-dir-c">
+        <h1 class="posts_header_title">Start learning today with the best blog posts on the network!<h1>
+            <h1 class="posts_header_subtitle">
+                < / >
+            </h1>
       </div>
     </section>
 
     <section class="buttons_place">
-      <div class="buttons_container">
+      <div class="buttons_container flex flex-jc-c">
         <button
           class="btn_post_tags btn_post_style"
           onclick="getPosts('JavaScript')"
@@ -176,12 +179,14 @@
     </section>
 
     <section class="articles_showing_up">
-      <h1 class="articles_header">
+      <h1 class="posts_articles_title">
         Let's take a look at this <span id="tag"></span> posts!
       </h1>
       <div id="articles" class="articles_container"></div>
     </section>
 
+    <button class="scrollToTopBtn">^</button>
+    <script src="app/js/scrollButton.js"></script>
     <script src="app/js/main.js"></script>
     <script src="app/js/devtoApi.js"></script>
   </body>

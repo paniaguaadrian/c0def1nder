@@ -1,7 +1,17 @@
 .navbar__logotext {
   font-size: 1.5rem;
   letter-spacing: 0.1rem;
-  border-bottom: 1px solid $extra-bc;
+  border-bottom: 2px solid $y-color;
+}
+
+.navbar__logotext span {
+  color: $y-color;
+  font-weight: 400;
+}
+
+.navbar__logotext {
+  font-weight: 300;
+  color: $b-color;
 }
 
 .overlay {
@@ -43,7 +53,7 @@
       display: block;
       width: 1.625rem;
       height: 2px;
-      background-color: $b-color;
+      background-color: $y-color;
       transition: all 350ms ease-in-out;
       transform-origin: 3.8px 1.6px;
 

@@ -224,7 +224,17 @@ button,
 .navbar__logotext {
   font-size: 1.5rem;
   letter-spacing: 0.1rem;
-  border-bottom: 1px solid #929d9e;
+  border-bottom: 2px solid #f3e367;
+}
+
+.navbar__logotext span {
+  color: #f3e367;
+  font-weight: 400;
+}
+
+.navbar__logotext {
+  font-weight: 300;
+  color: white;
 }
 
 .overlay {
@@ -261,7 +271,7 @@ button,
   display: block;
   width: 1.625rem;
   height: 2px;
-  background-color: white;
+  background-color: #f3e367;
   -webkit-transition: all 350ms ease-in-out;
   transition: all 350ms ease-in-out;
   -webkit-transform-origin: 3.8px 1.6px;
@@ -322,5 +332,162 @@ button,
 
 .header__buttons {
   color: #f3e367 !important;
+}
+
+.posts_container {
+  margin-top: 1rem;
+  padding-top: 2rem;
+}
+
+.posts_header_title {
+  font-size: 1.7rem;
+  text-align: center;
+  font-weight: 100;
+}
+
+.posts_header_subtitle {
+  margin-top: 2rem;
+  font-size: 3.5rem;
+  color: #f3e367;
+  text-align: center;
+  font-weight: 100;
+}
+
+.buttons_container {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-bottom: 2rem;
+  margin-top: 1rem;
+  padding: 0rem 2rem;
+}
+
+.btn_post_tags {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.btn_post_style {
+  width: 6rem;
+  height: 2rem;
+  color: #3f4346;
+  font-size: 0.9rem;
+  font-weight: 400;
+  background-color: #f3e367;
+  border: none;
+  border-radius: 8px;
+  margin: 0.2rem;
+}
+
+.posts_articles_title {
+  font-size: 1.3rem;
+  text-align: center;
+  font-weight: 100;
+  margin-bottom: 4rem;
+}
+
+.posts_articles_title span {
+  color: #f3e367;
+  font-weight: 300;
+}
+
+a.article-card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-bottom: 1.5px inset #f3e36734;
+  width: 90%;
+  margin: 0 auto;
+  margin-bottom: 2rem;
+  text-decoration: none;
+}
+
+a.article-card h1:hover {
+  color: #424949;
+}
+
+a > .user-img {
+  height: 75%;
+  width: 75%;
+  padding-bottom: 1rem;
+  margin-right: 1rem;
+}
+
+a > .user-img img {
+  width: 100%;
+  height: 100%;
+}
+
+a.article-card h1 {
+  font-size: 1rem;
+  font-weight: 500;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+a.article-card h2 {
+  text-align: center;
+  color: white;
+  font-weight: 400;
+  font-size: 0.8rem;
+  margin-bottom: 2rem;
+}
+
+.scrollToTopBtn {
+  border-radius: 50%;
+  font-size: 1.5rem;
+  background-color: #f3e367;
+  color: black;
+  border: none;
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+  /* place it at the bottom right corner */
+  position: fixed;
+  bottom: 15px;
+  right: 20px;
+  /* keep it at the top of everything else */
+  z-index: 100;
+  /* hide it at first */
+  /* UPDATE: remove display none */
+  /* 
+  /* hide with opacity */
+  opacity: 0;
+  /* also add a translate effect */
+  -webkit-transform: translateY(100px);
+          transform: translateY(100px);
+  /* and a transition */
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.showBtn {
+  opacity: 1;
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
 }
 /*# sourceMappingURL=style.css.map */
