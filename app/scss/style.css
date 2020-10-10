@@ -90,14 +90,14 @@ html,
 body {
   font-family: "Libre Franklin", sans-serif;
   height: 100%;
-  background-color: #7f8688;
+  background-color: #202637;
 }
 
 body {
   margin: 0;
   padding: 0;
   font-family: "Libre Franklin", sans-serif;
-  color: white;
+  color: #F2F2F2;
   line-height: 1.3;
 }
 
@@ -119,7 +119,7 @@ a,
 a:visited,
 a:hover {
   text-decoration: none;
-  color: #f3e367;
+  color: #F02B67;
 }
 
 ul {
@@ -224,17 +224,17 @@ button,
 .navbar__logotext {
   font-size: 1.5rem;
   letter-spacing: 0.1rem;
-  border-bottom: 2px solid #f3e367;
+  border-bottom: 2px solid #F02B67;
 }
 
 .navbar__logotext span {
-  color: #f3e367;
+  color: #F02B67;
   font-weight: 400;
 }
 
 .navbar__logotext {
   font-weight: 300;
-  color: white;
+  color: #F2F2F2;
 }
 
 .overlay {
@@ -244,8 +244,7 @@ button,
   bottom: 0;
   left: 0;
   right: 0;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#7f8688), to(#929d9e));
-  background-image: linear-gradient(#7f8688, #929d9e);
+  background-color: #202637;
 }
 
 .header .hmb__menu {
@@ -271,7 +270,7 @@ button,
   display: block;
   width: 1.625rem;
   height: 2px;
-  background-color: #f3e367;
+  background-color: #F02B67;
   -webkit-transition: all 350ms ease-in-out;
   transition: all 350ms ease-in-out;
   -webkit-transform-origin: 3.8px 1.6px;
@@ -295,7 +294,7 @@ button,
 
 .header__menu a {
   display: block;
-  color: white;
+  color: #F2F2F2;
   padding: 1rem 0.625rem;
   text-align: center;
   font-size: 1.3rem;
@@ -307,7 +306,7 @@ button,
   padding-right: 2rem;
   font-family: "Libre Franklin", sans-serif;
   font-size: 1rem;
-  color: white;
+  color: #F2F2F2;
   -webkit-transition: color 300ms ease-in-out;
   transition: color 300ms ease-in-out;
 }
@@ -317,7 +316,7 @@ button,
   display: block;
   position: absolute;
   height: 2px;
-  background: #f3e367;
+  background: #F02B67;
   opacity: 0;
   left: 0;
   right: 30px;
@@ -331,7 +330,7 @@ button,
 }
 
 .header__buttons {
-  color: #f3e367 !important;
+  color: #F02B67 !important;
 }
 
 .posts_container {
@@ -348,7 +347,7 @@ button,
 .posts_header_subtitle {
   margin-top: 2rem;
   font-size: 3.5rem;
-  color: #f3e367;
+  color: #F02B67;
   text-align: center;
   font-weight: 100;
 }
@@ -387,7 +386,7 @@ button,
   color: #3f4346;
   font-size: 0.9rem;
   font-weight: 400;
-  background-color: #f3e367;
+  background-color: #F02B67;
   border: none;
   border-radius: 8px;
   margin: 0.2rem;
@@ -401,7 +400,7 @@ button,
 }
 
 .posts_articles_title span {
-  color: #f3e367;
+  color: #F02B67;
   font-weight: 300;
 }
 
@@ -451,16 +450,134 @@ a.article-card h1 {
 
 a.article-card h2 {
   text-align: center;
-  color: white;
+  color: #F2F2F2;
   font-weight: 400;
   font-size: 0.8rem;
   margin-bottom: 2rem;
 }
 
+.js_btn {
+  color: black;
+  background-color: #dbc81f;
+}
+
+.html_btn {
+  color: white;
+  background-color: #db3f10;
+}
+
+.css_btn {
+  color: white;
+  background-color: #1050db;
+}
+
+.bk_btn {
+  color: #42d125;
+  background-color: black;
+}
+
+.mern_btn {
+  background-color: black;
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.m {
+  color: #4db33d;
+}
+
+.e {
+  color: #ff5100;
+}
+
+.r {
+  color: #37bee7;
+}
+
+.n {
+  color: #3c873a;
+}
+
+.mongo_btn {
+  color: white;
+  background-color: #4db33d;
+}
+
+.exp_btn {
+  color: white;
+  background-color: #ff5100;
+}
+
+.node_btn {
+  color: black;
+  background-color: #3c873a;
+}
+
+.fs_btn {
+  color: #202205;
+  background-color: #f8f8f8;
+}
+
+.g_btn {
+  color: #3e2c00;
+  background-color: #f1502f;
+}
+
+.gh_btn {
+  color: white;
+  background-color: purple;
+}
+
+.h_btn {
+  color: #c9c3e6;
+  background-color: #6762a6;
+}
+
+.d_btn {
+  color: white;
+  background-image: -webkit-gradient(linear, left top, right top, from(#ffd000), to(#0044ff));
+  background-image: linear-gradient(to right, #ffd000, #0044ff);
+}
+
+.ux_btn {
+  color: white;
+  background-color: #7220a8;
+}
+
+.ui_btn {
+  color: black;
+  background-color: orange;
+}
+
+.fe_btn {
+  color: #bb2edf;
+  background-color: black;
+}
+
+.scss_btn {
+  color: white;
+  background-color: #cd6799;
+}
+
+.r_btn {
+  color: white;
+  background-color: #37bee7;
+}
+
+.tut_btn {
+  color: black;
+  background-color: #1cd125;
+}
+
+.beg_btn {
+  color: black;
+  background-color: #ced11c;
+}
+
 .scrollToTopBtn {
   border-radius: 50%;
   font-size: 1.5rem;
-  background-color: #f3e367;
+  background-color: #F02B67;
   color: black;
   border: none;
   cursor: pointer;
