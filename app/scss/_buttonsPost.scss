@@ -20,12 +20,13 @@
 
 .mern_btn {
   background-color: rgb(0, 0, 0);
-  font-weight: 600;
+  font-weight: 300;
   font-size: 1rem;
 }
 
-.m {
+.mern {
   color: #4db33d;
+  margin-bottom: 0rem !important;
 }
 
 .e {
@@ -117,4 +118,9 @@
 .beg_btn {
   color: black;
   background-color: rgb(206, 209, 28);
+}
+
+.cod_btn {
+  color: white;
+  background-color: rgb(28, 137, 209);
 }

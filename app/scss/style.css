@@ -581,12 +581,13 @@ a.book-card h2 {
 
 .mern_btn {
   background-color: black;
-  font-weight: 600;
+  font-weight: 300;
   font-size: 1rem;
 }
 
-.m {
+.mern {
   color: #4db33d;
+  margin-bottom: 0rem !important;
 }
 
 .e {
@@ -675,6 +676,11 @@ a.book-card h2 {
 .beg_btn {
   color: black;
   background-color: #ced11c;
+}
+
+.cod_btn {
+  color: white;
+  background-color: #1c89d1;
 }
 
 .scrollToTopBtn {
