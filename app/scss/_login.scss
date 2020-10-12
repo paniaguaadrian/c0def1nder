@@ -1,5 +1,27 @@
 .modal-dialog {
-  color: black;
+  color: $b-color;
+}
+
+.modal-content {
+  background-color: $bg-color;
+}
+
+.modal-body,
+.modal-footer {
+  border: none !important;
+}
+
+.modal-header {
+  border-bottom: none !important;
+}
+
+.modal-title {
+  color: $y-color;
+}
+
+.close span {
+  color: $b-color;
+  border: none !important;
 }
 
 .message-container,
@@ -8,4 +30,10 @@
   z-index: 99;
   text-align: center;
   align-items: center;
+}
+
+.btn-primary {
+  background-color: $y-color !important;
+  border: none !important;
+  color: $b-color;
 }

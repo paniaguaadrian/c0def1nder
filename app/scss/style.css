@@ -518,7 +518,29 @@ a.book-card h2 {
 }
 
 .modal-dialog {
-  color: black;
+  color: #F2F2F2;
+}
+
+.modal-content {
+  background-color: #202637;
+}
+
+.modal-body,
+.modal-footer {
+  border: none !important;
+}
+
+.modal-header {
+  border-bottom: none !important;
+}
+
+.modal-title {
+  color: #F02B67;
+}
+
+.close span {
+  color: #F2F2F2;
+  border: none !important;
 }
 
 .message-container,
@@ -529,6 +551,12 @@ a.book-card h2 {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+.btn-primary {
+  background-color: #F02B67 !important;
+  border: none !important;
+  color: #F2F2F2;
 }
 
 .js_btn {
