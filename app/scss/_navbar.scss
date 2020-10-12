@@ -85,8 +85,8 @@
     &__links {
       a {
         position: relative;
-        margin-right: 3rem;
-        padding-right: 2rem;
+        margin-right: 1.5rem;
+        padding-right: 0.8rem;
         font-family: $body-font;
         font-size: $font-vsm;
         color: $b-color;
@@ -101,7 +101,7 @@
           background: $y-color;
           opacity: 0;
           left: 0;
-          right: 30px;
+          right: 10px;
           bottom: -0.5rem;
           transition: opacity 300ms ease-in-out;
         }

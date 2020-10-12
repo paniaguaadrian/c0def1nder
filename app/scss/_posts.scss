@@ -9,6 +9,13 @@
   font-weight: 100;
 }
 
+.posts_header_title span {
+  font-size: $font-bsm;
+  color: $y-color;
+  text-align: center;
+  font-weight: 300;
+}
+
 .posts_header_subtitle {
   margin-top: 2rem;
   font-size: 3.5rem;

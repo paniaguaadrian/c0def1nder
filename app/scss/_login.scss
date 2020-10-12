@@ -1,3 +1,11 @@
 .modal-dialog {
   color: black;
 }
+
+.message-container,
+.message-container2 {
+  color: red;
+  z-index: 99;
+  text-align: center;
+  align-items: center;
+}

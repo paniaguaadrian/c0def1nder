@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>c0def1nder - Home</title>
+
+    <!-- Bootstrap stylesheet -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="app/scss/style.css" />
+
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <div class="overlay has-fade"></div>
+      <nav class="navbar container--pall flex flex-dir-row flex-jc-sb">
+        <div class="navbar__logo container-pall">
+          <a href="index.html">
+            <h1 class="navbar__logotext">
+              c<span>0</span>def<span>1</span>nder
+            </h1>
+          </a>
+        </div>
+        <div class="hmb__menu">
+          <a id="btnHamburger" href="#" class="header__toggle hide-for-desktop">
+            <span></span>
+            <span></span>
+            <span></span>
+          </a>
+        </div>
+        <div class="navbar__links flex container--pall hide-for-mobile">
+          <a href="index.html">Home</a>
+          <a href="posts.html">Posts</a>
+          <a href="books.html">Books</a>
+          <a href="faq.html">FAQ</a>
+          <!-- Button for modal window (Sign UP) ------------------------------>
+          <a class="header__buttons" data-toggle="modal" data-target="#signUp"
+            >Sign Up</a
+          >
+          <!-- Modal bootstrap -->
+          <div
+            class="modal fade"
+            id="signUp"
+            tabindex="-1"
+            role="dialog"
+            aria-labelledby="signUpLabel"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="signUpLabel">Sign Up</h5>
+                  <button
+                    type="button"
+                    class="close"
+                    data-dismiss="modal"
+                    aria-label="Close"
+                  >
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <!-- El cuerpo del formulario -->
+                <div class="modal-body">
+                  <form class="signup-form" action="">
+                    <!-- input del nombre -->
+                    <div class="form-group">
+                      <label for="name" class="col-form-label"
+                        >My name is...</label
+                      >
+                      <input
+                        type="text"
+                        id="name"
+                        class="form-control"
+                        placeholder="SuperCoder99"
+                      />
+                    </div>
+                    <!-- Input del lenguage que usa -->
+                    <div class="form-group">
+                      <label for="language" class="col-form-label"
+                        >My favorite language is...</label
+                      >
+                      <input
+                        type="text"
+                        class="form-control"
+                        id="language"
+                        placeholder="All of them of course!"
+                      />
+                    </div>
+                    <!-- input del mail -->
+                    <div class="form-group">
+                      <label for="email" class="col-form-label"
+                        >Send me emails here!</label
+                      >
+                      <input
+                        type="email"
+                        class="form-control"
+                        id="email"
+                        placeholder="SuperCoder99@gmail.com"
+                      />
+                    </div>
+                    <!-- Input de la contraseña -->
+                    <div class="form-group">
+                      <label for="password" class="col-form-label"
+                        >My secret password is...</label
+                      >
+                      <input
+                        type="password"
+                        class="form-control"
+                        id="password"
+                        placeholder="****"
+                      />
+                    </div>
+                    <!-- Input de repetir contraseña -->
+                    <div class="form-group">
+                      <label for="repeat-password" class="col-form-label"
+                        >Again? Okay...</label
+                      >
+                      <input
+                        type="password"
+                        class="form-control"
+                        id="repeat-password"
+                        placeholder="****"
+                      />
+                    </div>
+                  </form>
+                </div>
+                <div class="modal-footer">
+                  <button
+                    type="button"
+                    class="btn btn-secondary"
+                    data-dismiss="modal"
+                  >
+                    Close
+                  </button>
+                  <button
+                    type="submit"
+                    class="button btn btn-primary"
+                    id="signup-button"
+                    disabled
+                  >
+                    Sign Up
+                  </button>
+                </div>
+                <div class="message-container"></div>
+              </div>
+            </div>
+          </div>
+          <!-- Button for modal window (Log In)-------------------------------->
+          <a class="header__buttons" data-toggle="modal" data-target="#logIn"
+            >Log In</a
+          >
+          <!-- Modal bootstrap -->
+          <div
+            class="modal fade"
+            id="logIn"
+            tabindex="-1"
+            role="dialog"
+            aria-labelledby="logInLabel"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="logInLabel">Log In</h5>
+                  <button
+                    type="button"
+                    class="close"
+                    data-dismiss="modal"
+                    aria-label="Close"
+                  >
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <!-- El cuerpo del formulario -->
+                <div class="modal-body">
+                  <form class="login-form" action="">
+                    <!-- input del mail -->
+                    <div class="form-group">
+                      <label for="email2" class="col-form-label"
+                        >My access email!</label
+                      >
+                      <input
+                        type="email"
+                        class="form-control"
+                        id="email2"
+                        placeholder="SuperCoder99@gmail.com"
+                      />
+                    </div>
+                    <!-- Input de la contraseña -->
+                    <div class="form-group">
+                      <label for="password2" class="col-form-label"
+                        >My secret password is...</label
+                      >
+                      <input
+                        type="password"
+                        class="form-control"
+                        id="password2"
+                        placeholder="****"
+                      />
+                    </div>
+                  </form>
+                </div>
+                <div class="modal-footer">
+                  <button
+                    type="button"
+                    class="btn btn-secondary"
+                    data-dismiss="modal"
+                  >
+                    Close
+                  </button>
+                  <button
+                    type="submit"
+                    class="button btn btn-primary"
+                    id="login-button"
+                  >
+                    Sign In
+                  </button>
+                </div>
+                <div class="message-container2"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      <div class="header__menu has-fade hide-for-desktop">
+        <a href="index.html">Home</a>
+        <a href="posts.html">Posts</a>
+        <a href="books.html">Books</a>
+        <a href="#">FAQ</a>
+        <div>
+          <a class="header__buttons" href="#">Sign Up</a>
+          <a class="header__buttons" href="#">Log In</a>
+        </div>
+      </div>
+    </header>
+
+    <!-- TEST -->
+    <div class="container--pall flex flex-dir-c">
+      <h1 class="first">hello world</h1>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi fugit
+        mollitia itaque, quis dignissimos quam corporis nemo eligendi aut ex!
+        Quae esse nostrum, ut et facilis exercitationem? A, aut ex. Ipsa rerum
+        explicabo nobis inventore modi a ipsum, harum aliquid eum mollitia natus
+        iusto ex maxime recusandae labore minima quae. Incidunt totam non Lorem
+        ipsum dolor sit amet consectetur adipisicing elit. Animi fugit mollitia
+        itaque, quis dignissimos quam corporis nemo eligendi aut ex! Quae esse
+        nostrum, ut et facilis exercitationem? A, aut ex. Ipsa rerum explicabo
+        nobis inventore modi a ipsum, harum aliquid eum mollitia natus iusto ex
+        maxime recusandae labore minima quae. Incidunt totam non Lorem ipsum
+        dolor sit amet consectetur adipisicing elit. Animi fugit mollitia
+        itaque, quis dignissimos quam corporis nemo eligendi aut ex! Quae esse
+        nostrum, ut et facilis exercitationem? A, aut ex. Ipsa rerum explicabo
+        nobis inventore modi a ipsum, harum aliquid eum mollitia natus iusto ex
+        maxime recusandae labore minima quae. Incidunt totam non Lorem ipsum
+        dolor sit amet consectetur adipisicing elit. Animi fugit mollitia
+        itaque, quis dignissimos quam corporis nemo eligendi aut ex! Quae esse
+        nostrum, ut et facilis exercitationem? A, aut ex. Ipsa rerum explicabo
+        nobis inventore modi a ipsum, harum aliquid eum mollitia natus iusto ex
+        maxime recusandae labore minima quae. Incidunt totam non Lorem ipsum
+        dolor sit amet consectetur adipisicing elit. Animi fugit mollitia
+        itaque, quis dignissimos quam corporis nemo eligendi aut ex! Quae esse
+        nostrum, ut et facilis exercitationem? A, aut ex. Ipsa rerum explicabo
+        nobis inventore modi a ipsum, harum aliquid eum mollitia natus iusto ex
+        maxime recusandae labore minima quae. Incidunt totam non
+      </p>
+    </div>
+
+    <!-- scripts -->
+    <script src="app/js/main.js"></script>
+    <script src="app/js/devtoApi.js"></script>
+    <script src="app/js/Login.js"></script>
+    <script src="app/js/Database.js"></script>
+    <script src="app/js/Signup.js"></script>
+    <script src="app/js/User.js"></script>
+    <script src="app/js/Validator.js"></script>
+    <!-- Boostrap JavaScript -->
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
