@@ -1,4 +1,3 @@
-// * This runs the API for 30 ${tag} posts
 const getPosts = async (tag) => {
   var finalPost = "";
   const response = await fetch(`https://dev.to/api/articles?tag=${tag}`);
@@ -11,7 +10,7 @@ const getPosts = async (tag) => {
     const posts_image = post.cover_image;
 
     finalPost +=
-      `<a href="${posts_url}" target="_blanl" class=article-card>` +
+      `<a href="${posts_url}" target="_blank" class=article-card>` +
       (posts_image !== null
         ? `<div class="user-img"><img src="${posts_image}"></div>`
         : "") +

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>c0def1nder - Best Books!</title>
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="app/scss/style.css" />
+
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header container">
+      <div class="overlay has-fade"></div>
+      <nav class="navbar container--pall flex flex-dir-row flex-jc-sb">
+        <div class="navbar__logo container-pall">
+          <a href="index.html">
+            <h1 class="navbar__logotext">c<span>0</span>def<span>1</span>nder</h1>
+          </a>
+        </div>
+        <div class="hmb__menu">
+          <a id="btnHamburger" href="#" class="header__toggle hide-for-desktop">
+            <span></span>
+            <span></span>
+            <span></span>
+          </a>
+        </div>
+        <div class="navbar__links flex container--pall hide-for-mobile">
+          <a href="index.html">Home</a>
+          <a href="posts.html">Posts</a>
+          <a href="books.html">Books</a>
+          <a href="#">FAQ</a>
+          <a class="header__buttons" href="#">Sign Up</a>
+          <a class="header__buttons" href="#">Log In</a>
+        </div>
+      </nav>
+
+      <div class="header__menu has-fade hide-for-desktop">
+        <a href="index.html">Home</a>
+        <a href="posts.html">Posts</a>
+        <a href="books.html">Books</a>
+        <a href="#">FAQ</a>
+        <div>
+          <a class="header__buttons" href="#">Sign Up</a>
+          <a class="header__buttons" href="#">Log In</a>
+        </div>
+      </div>
+    </header>
+
+    <section class="posts_header">
+      <div class="posts_container container container--pall flex flex-jc-c flex-dir-c">
+        <h1 class="posts_header_title">Start learning today with the best blog posts on the network!<h1>
+            <h1 class="posts_header_subtitle">
+                < / >
+            </h1>
+      </div>
+    </section>
+
+    <section class="buttons_place">
+      <div class="buttons_container flex flex-jc-c">
+        <button
+          class="btn_post_tags btn_post_style js_btn"
+          onclick="getBooks('JavaScript')"
+        >
+          JavaScript
+        </button>
+      </div>
+    </section>
+
+    <section class="articles_showing_up">
+      <h1 class="posts_articles_title">
+        Let's take a look at this <span id="tagB"></span> books!
+      </h1>
+      <div id="booksA" class="articles_container"></div>
+    </section>
+
+    <button class="scrollToTopBtn">^</button>
+    <script src="app/js/scrollButton.js"></script>
+    <script src="app/js/main.js"></script>
+    <script src="app/js/iBookApi.js"></script>
+  </body>
+</html>
