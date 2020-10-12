@@ -13,11 +13,14 @@ const getBooks = async (tagB) => {
 
     finalBook +=
       `<a href="${books_url}" target="_blank" class=book-card>` +
-      (books_image !== null
-        ? `<div class"user-image><img src="${books_image}"</div>`
-        : "") +
-      // ! preguntar a daniel este error de consola. slice()
-      `<h1>${books_titles}</h1><h2>${books_description}...</h2></a>`;
+      `<div class"book-img><img src="${books_image}"></div>` +
+      (books_description !== undefined
+        ? `<h1>${books_titles}</h1><h2>${books_description.slice(
+            0,
+            200
+          )}...</h2></a>`
+        : `<h1>${books_titles}</h1>`);
+
     document.getElementById(`tagB`).innerHTML = tagB;
     document.getElementById(`booksA`).innerHTML = finalBook;
   });
