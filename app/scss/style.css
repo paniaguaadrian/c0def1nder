@@ -120,6 +120,7 @@ a:visited,
 a:hover {
   text-decoration: none;
   color: #F02B67;
+  cursor: pointer;
 }
 
 ul {
@@ -507,6 +508,10 @@ a.book-card h2 {
   font-weight: 400;
   font-size: 0.8rem;
   margin-bottom: 2rem;
+}
+
+.modal-dialog {
+  color: black;
 }
 
 .js_btn {
