@@ -368,6 +368,113 @@ button,
   padding: 0 0;
 }
 
+.hero_container {
+  margin-top: 1rem;
+  padding-top: 2rem;
+}
+
+.hero_header_title {
+  font-size: 1.7rem;
+  text-align: center;
+  font-weight: 100;
+  margin-top: 2rem;
+}
+
+.hero_header_title span {
+  font-size: 1.7rem;
+  color: #f02b67;
+  text-align: center;
+  font-weight: 400;
+}
+
+.container_animation_text_hero {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  width: 100%;
+  margin-top: 0rem;
+  margin-bottom: 0.8rem;
+  border-bottom: 2px solid #f02b67;
+  padding-bottom: 2rem;
+}
+
+.how_works_container {
+  margin: 3rem 2rem 4rem 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.how_works_option {
+  margin-bottom: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.how_works_text {
+  font-size: 1rem;
+  margin-right: 1rem;
+}
+
+.how_works_text2 {
+  font-size: 1rem;
+  margin-left: 1rem;
+}
+
+.how_works_image {
+  font-size: 2rem;
+  color: #f02b67;
+}
+
+.rock_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+  margin: 2rem 1rem 2.5rem 1rem;
+}
+
+.rock_text {
+  font-size: 1.2rem;
+  font-weight: 200;
+  text-transform: uppercase;
+}
+
+.rock_text span {
+  font-size: 1.4rem;
+  color: #f02b67;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
 .container_animation_text {
   -webkit-box-pack: center;
       -ms-flex-pack: center;

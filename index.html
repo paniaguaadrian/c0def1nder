@@ -13,6 +13,12 @@
       crossorigin="anonymous"
     />
 
+    <!-- Font Awesome -->
+    <script
+      src="https://kit.fontawesome.com/73cec3d1ec.js"
+      crossorigin="anonymous"
+    ></script>
+
     <!-- Stylesheets -->
     <link rel="stylesheet" href="app/scss/style.css" />
 
@@ -248,39 +254,72 @@
     </header>
 
     <!-- TEST -->
-    <div class="container--pall flex flex-dir-c">
-      <h1 class="first">hello world</h1>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi fugit
-        mollitia itaque, quis dignissimos quam corporis nemo eligendi aut ex!
-        Quae esse nostrum, ut et facilis exercitationem? A, aut ex. Ipsa rerum
-        explicabo nobis inventore modi a ipsum, harum aliquid eum mollitia natus
-        iusto ex maxime recusandae labore minima quae. Incidunt totam non Lorem
-        ipsum dolor sit amet consectetur adipisicing elit. Animi fugit mollitia
-        itaque, quis dignissimos quam corporis nemo eligendi aut ex! Quae esse
-        nostrum, ut et facilis exercitationem? A, aut ex. Ipsa rerum explicabo
-        nobis inventore modi a ipsum, harum aliquid eum mollitia natus iusto ex
-        maxime recusandae labore minima quae. Incidunt totam non Lorem ipsum
-        dolor sit amet consectetur adipisicing elit. Animi fugit mollitia
-        itaque, quis dignissimos quam corporis nemo eligendi aut ex! Quae esse
-        nostrum, ut et facilis exercitationem? A, aut ex. Ipsa rerum explicabo
-        nobis inventore modi a ipsum, harum aliquid eum mollitia natus iusto ex
-        maxime recusandae labore minima quae. Incidunt totam non Lorem ipsum
-        dolor sit amet consectetur adipisicing elit. Animi fugit mollitia
-        itaque, quis dignissimos quam corporis nemo eligendi aut ex! Quae esse
-        nostrum, ut et facilis exercitationem? A, aut ex. Ipsa rerum explicabo
-        nobis inventore modi a ipsum, harum aliquid eum mollitia natus iusto ex
-        maxime recusandae labore minima quae. Incidunt totam non Lorem ipsum
-        dolor sit amet consectetur adipisicing elit. Animi fugit mollitia
-        itaque, quis dignissimos quam corporis nemo eligendi aut ex! Quae esse
-        nostrum, ut et facilis exercitationem? A, aut ex. Ipsa rerum explicabo
-        nobis inventore modi a ipsum, harum aliquid eum mollitia natus iusto ex
-        maxime recusandae labore minima quae. Incidunt totam non
-      </p>
-    </div>
+    <section class="hero_header">
+      <div
+        class="hero_container container container--pall flex flex-jc-c flex-dir-c"
+      >
+        <div class="container_animation_text_hero">
+          <div class="text"></div>
+        </div>
+        <h1 class="hero_header_title">
+          Learn web development with the best <span>resources</span> on the
+          network!
+        </h1>
+      </div>
+
+      <div class="how_works_container">
+        <div class="how_works_option">
+          <h1 class="how_works_text">Sign up and Log In</h1>
+          <i class="fas fa-sign-in-alt how_works_image"></i>
+        </div>
+        <div class="how_works_option">
+          <h1 class="how_works_text">Choose posts or books</h1>
+          <i class="fas fa-check-square how_works_image"></i>
+        </div>
+        <div class="how_works_option">
+          <h1 class="how_works_text">Select a category</h1>
+          <i class="fas fa-sign-in-alt how_works_image"></i>
+        </div>
+      </div>
+      <div class="rock_container">
+        <h1 class="rock_text">
+          <span>Upgrade your code skills</span> with amazing knowledge NOW!
+        </h1>
+      </div>
+    </section>
+
+    <section class="footer_container">
+      <div class="footer_social">
+        <a
+          class="social_links"
+          href="mailto:paniaguasanchezadrian@gmail.com"
+          target="_blank"
+          ><i class="fas fa-envelope-square"></i
+        ></a>
+        <a
+          class="social_links"
+          href="https://twitter.com/BreadandwaterA"
+          target="_blank"
+          ><i class="fab fa-twitter-square"></i
+        ></a>
+        <a
+          class="social_links"
+          href="https://www.linkedin.com/in/adrian-paniagua/"
+          target="_blank"
+          ><i class="fab fa-linkedin"></i
+        ></a>
+        <a
+          class="social_links"
+          href="https://github.com/paniaguaadrian"
+          target="_blank"
+          ><i class="fab fa-github-square"></i
+        ></a>
+      </div>
+    </section>
 
     <!-- scripts -->
     <script src="app/js/main.js"></script>
+    <script src="app/js/library/text_animationHome.js"></script>
     <script src="app/js/devtoApi.js"></script>
     <script src="app/js/Login.js"></script>
     <script src="app/js/Database.js"></script>
