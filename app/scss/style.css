@@ -412,6 +412,36 @@ button,
   font-weight: 300;
 }
 
+.articles_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.books_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+@media (min-width: 40em) {
+  .books_container {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    margin: 0 15%;
+  }
+}
+
 a.article-card {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -431,6 +461,16 @@ a.article-card {
   margin: 0 auto;
   margin-bottom: 2rem;
   text-decoration: none;
+}
+
+@media (min-width: 40em) {
+  a.article-card {
+    width: 25%;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
 }
 
 a.article-card h1:hover {
