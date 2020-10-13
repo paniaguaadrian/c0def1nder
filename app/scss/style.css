@@ -403,7 +403,7 @@ button,
 }
 
 .how_works_container {
-  margin: 3rem 2rem 4rem 2rem;
+  margin: 4rem 2rem 4rem 2rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -459,7 +459,7 @@ button,
       -ms-flex-direction: column;
           flex-direction: column;
   text-align: center;
-  margin: 2rem 1rem 2.5rem 1rem;
+  margin: 2rem 1rem 2rem 1rem;
 }
 
 .rock_text {
