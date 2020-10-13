@@ -1,3 +1,19 @@
+.signUpMobile_container {
+  margin: 3rem 2rem;
+  margin-bottom: 0rem;
+}
+
+.signIn_container {
+  margin: 5rem 2rem;
+  margin-bottom: 0rem;
+}
+
+.form_title {
+  border-bottom: 2px solid $y-color;
+  width: 70%;
+  margin-bottom: 1rem;
+}
+
 .modal-dialog {
   color: $b-color;
 }
@@ -9,6 +25,13 @@
 .modal-body,
 .modal-footer {
   border: none !important;
+}
+.modal-footer {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  margin: 0 auto;
 }
 
 .modal-header {

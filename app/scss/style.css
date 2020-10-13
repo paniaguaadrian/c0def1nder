@@ -517,6 +517,22 @@ a.book-card h2 {
   margin-bottom: 2rem;
 }
 
+.signUpMobile_container {
+  margin: 3rem 2rem;
+  margin-bottom: 0rem;
+}
+
+.signIn_container {
+  margin: 5rem 2rem;
+  margin-bottom: 0rem;
+}
+
+.form_title {
+  border-bottom: 2px solid #F02B67;
+  width: 70%;
+  margin-bottom: 1rem;
+}
+
 .modal-dialog {
   color: #F2F2F2;
 }
@@ -528,6 +544,20 @@ a.book-card h2 {
 .modal-body,
 .modal-footer {
   border: none !important;
+}
+
+.modal-footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 0 auto;
 }
 
 .modal-header {
