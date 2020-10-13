@@ -459,7 +459,7 @@ button,
       -ms-flex-direction: column;
           flex-direction: column;
   text-align: center;
-  margin: 2rem 1rem 2rem 1rem;
+  margin: 2rem 1rem 1.75rem 1rem;
 }
 
 .rock_text {
@@ -571,7 +571,7 @@ button,
   font-size: 1.3rem;
   text-align: center;
   font-weight: 100;
-  margin-bottom: 3.7rem;
+  margin-bottom: 3.5rem;
 }
 
 .posts_articles_title span {
