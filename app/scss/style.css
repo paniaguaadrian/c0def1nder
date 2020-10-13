@@ -97,7 +97,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: "Libre Franklin", sans-serif;
-  color: #F2F2F2;
+  color: #f2f2f2;
   line-height: 1.3;
 }
 
@@ -119,7 +119,7 @@ a,
 a:visited,
 a:hover {
   text-decoration: none;
-  color: #F02B67;
+  color: #f02b67;
   cursor: pointer;
 }
 
@@ -225,17 +225,17 @@ button,
 .navbar__logotext {
   font-size: 1.5rem;
   letter-spacing: 0.1rem;
-  border-bottom: 2px solid #F02B67;
+  border-bottom: 2px solid #f02b67;
 }
 
 .navbar__logotext span {
-  color: #F02B67;
+  color: #f02b67;
   font-weight: 400;
 }
 
 .navbar__logotext {
   font-weight: 300;
-  color: #F2F2F2;
+  color: #f2f2f2;
 }
 
 .overlay {
@@ -271,7 +271,7 @@ button,
   display: block;
   width: 1.625rem;
   height: 2px;
-  background-color: #F02B67;
+  background-color: #f02b67;
   -webkit-transition: all 350ms ease-in-out;
   transition: all 350ms ease-in-out;
   -webkit-transform-origin: 3.8px 1.6px;
@@ -295,7 +295,7 @@ button,
 
 .header__menu a {
   display: block;
-  color: #F2F2F2;
+  color: #f2f2f2;
   padding: 1rem 0.625rem;
   text-align: center;
   font-size: 1.3rem;
@@ -307,7 +307,7 @@ button,
   padding-right: 0.8rem;
   font-family: "Libre Franklin", sans-serif;
   font-size: 1rem;
-  color: #F2F2F2;
+  color: #f2f2f2;
   -webkit-transition: color 300ms ease-in-out;
   transition: color 300ms ease-in-out;
 }
@@ -317,7 +317,7 @@ button,
   display: block;
   position: absolute;
   height: 2px;
-  background: #F02B67;
+  background: #f02b67;
   opacity: 0;
   left: 0;
   right: 10px;
@@ -331,7 +331,41 @@ button,
 }
 
 .header__buttons {
-  color: #F02B67 !important;
+  color: #f02b67 !important;
+}
+
+.footer_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.footer_social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-top: 3px solid #f02b67;
+  border-bottom: 3px solid #f02b67;
+  background-color: #252c41;
+}
+
+.social_links {
+  font-size: 1.5rem;
+  color: #f02b67;
+  padding-left: 1rem;
+  margin: 1rem 1rem;
+  padding: 0 0;
 }
 
 .container_animation_text {
@@ -345,7 +379,7 @@ button,
   width: 100%;
   margin-top: 2rem;
   margin-bottom: 0.8rem;
-  border-top: 2px solid #F02B67;
+  border-top: 2px solid #f02b67;
   padding-top: 2rem;
 }
 
@@ -373,7 +407,7 @@ button,
 
 .posts_header_title span {
   font-size: 1.7rem;
-  color: #F02B67;
+  color: #f02b67;
   text-align: center;
   font-weight: 300;
 }
@@ -381,7 +415,7 @@ button,
 .posts_header_subtitle {
   margin-top: 2rem;
   font-size: 3.5rem;
-  color: #F02B67;
+  color: #f02b67;
   text-align: center;
   font-weight: 100;
 }
@@ -420,7 +454,7 @@ button,
   color: #3f4346;
   font-size: 0.9rem;
   font-weight: 400;
-  background-color: #F02B67;
+  background-color: #f02b67;
   border: none;
   border-radius: 8px;
   margin: 0.2rem;
@@ -430,11 +464,11 @@ button,
   font-size: 1.3rem;
   text-align: center;
   font-weight: 100;
-  margin-bottom: 4rem;
+  margin-bottom: 3.5rem;
 }
 
 .posts_articles_title span {
-  color: #F02B67;
+  color: #f02b67;
   font-weight: 300;
 }
 
@@ -484,7 +518,7 @@ a.article-card h1 {
 
 a.article-card h2 {
   text-align: center;
-  color: #F2F2F2;
+  color: #f2f2f2;
   font-weight: 400;
   font-size: 0.8rem;
   margin-bottom: 2rem;
@@ -537,7 +571,7 @@ a.book-card h1 {
 
 a.book-card h2 {
   text-align: center;
-  color: #F2F2F2;
+  color: #f2f2f2;
   font-weight: 400;
   font-size: 0.8rem;
   margin-bottom: 2rem;
@@ -554,13 +588,13 @@ a.book-card h2 {
 }
 
 .form_title {
-  border-bottom: 2px solid #F02B67;
+  border-bottom: 2px solid #f02b67;
   width: 70%;
   margin-bottom: 1rem;
 }
 
 .modal-dialog {
-  color: #F2F2F2;
+  color: #f2f2f2;
 }
 
 .modal-content {
@@ -591,11 +625,11 @@ a.book-card h2 {
 }
 
 .modal-title {
-  color: #F02B67;
+  color: #f02b67;
 }
 
 .close span {
-  color: #F2F2F2;
+  color: #f2f2f2;
   border: none !important;
 }
 
@@ -610,9 +644,9 @@ a.book-card h2 {
 }
 
 .btn-primary {
-  background-color: #F02B67 !important;
+  background-color: #f02b67 !important;
   border: none !important;
-  color: #F2F2F2;
+  color: #f2f2f2;
 }
 
 .js_btn {
@@ -743,7 +777,7 @@ a.book-card h2 {
   border-radius: 50%;
   font-size: 1rem;
   font-weight: 400;
-  background-color: #F02B67;
+  background-color: #f02b67;
   color: black;
   border: none;
   cursor: pointer;

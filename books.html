@@ -5,13 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>c0def1nder - Best Books!</title>
 
-<!-- Bootstrap stylesheet -->
+    <!-- Bootstrap stylesheet -->
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
       integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
       crossorigin="anonymous"
     />
+
+    <!-- Font Awesome -->
+    <script
+      src="https://kit.fontawesome.com/73cec3d1ec.js"
+      crossorigin="anonymous"
+    ></script>
 
     <!-- Stylesheets -->
     <link rel="stylesheet" href="app/scss/style.css" />
@@ -28,7 +34,9 @@
       <nav class="navbar container--pall flex flex-jc-sb">
         <div class="navbar__logo container-pall">
           <a href="index.html">
-            <h1 class="navbar__logotext">c<span>0</span>def<span>1</span>nder</h1>
+            <h1 class="navbar__logotext">
+              c<span>0</span>def<span>1</span>nder
+            </h1>
           </a>
         </div>
         <div class="hmb__menu">
@@ -246,11 +254,16 @@
     </header>
 
     <section class="posts_header">
-      <div class="posts_container container container--pall flex flex-jc-c flex-dir-c">
-        <h1 class="posts_header_title">Start learning today with the best <span>programming books</span> on the network!<h1>
-            <h1 class="posts_header_subtitle">
-                < / >
-            </h1>
+      <div
+        class="posts_container container container--pall flex flex-jc-c flex-dir-c"
+      >
+        <h1 class="posts_header_title">
+          Start learning today with the best <span>programming books</span> on
+          the network!
+        </h1>
+        <div class="container_animation_text">
+          <div class="text"></div>
+        </div>
       </div>
     </section>
 
@@ -263,11 +276,17 @@
           JavaScript
         </button>
 
-        <button class="btn_post_tags btn_post_style html_btn" onclick="getBooks('HTML')">
+        <button
+          class="btn_post_tags btn_post_style html_btn"
+          onclick="getBooks('HTML')"
+        >
           HTML
         </button>
 
-        <button class="btn_post_tags btn_post_style css_btn" onclick="getBooks('CSS')">
+        <button
+          class="btn_post_tags btn_post_style css_btn"
+          onclick="getBooks('CSS')"
+        >
           CSS
         </button>
         <button
@@ -277,8 +296,14 @@
           Back end
         </button>
 
-        <button class="btn_post_tags btn_post_style mern_btn" onclick="getBooks('MERN')"><p class="mern">M<span class="e">E</span><span class="r">R</span><span class="n">N</span></p>
-          
+        <button
+          class="btn_post_tags btn_post_style mern_btn"
+          onclick="getBooks('MERN')"
+        >
+          <p class="mern">
+            M<span class="e">E</span><span class="r">R</span
+            ><span class="n">N</span>
+          </p>
         </button>
 
         <button
@@ -307,7 +332,10 @@
         >
           FullStack
         </button>
-        <button class="btn_post_tags btn_post_style g_btn" onclick="getBooks('Git')">
+        <button
+          class="btn_post_tags btn_post_style g_btn"
+          onclick="getBooks('Git')"
+        >
           Git
         </button>
 
@@ -331,11 +359,17 @@
           Design
         </button>
 
-        <button class="btn_post_tags btn_post_style ux_btn" onclick="getBooks('Ux')">
+        <button
+          class="btn_post_tags btn_post_style ux_btn"
+          onclick="getBooks('Ux')"
+        >
           Ux
         </button>
 
-        <button class="btn_post_tags btn_post_style ui_btn" onclick="getBooks('Ui')">
+        <button
+          class="btn_post_tags btn_post_style ui_btn"
+          onclick="getBooks('Ui')"
+        >
           Ui
         </button>
         <button
@@ -345,7 +379,10 @@
           Front end
         </button>
 
-        <button class="btn_post_tags btn_post_style scss_btn" onclick="getBooks('SCSS')">
+        <button
+          class="btn_post_tags btn_post_style scss_btn"
+          onclick="getBooks('SCSS')"
+        >
           SCSS
         </button>
 
@@ -369,7 +406,6 @@
         >
           Development
         </button>
-        
       </div>
     </section>
 
@@ -383,10 +419,40 @@
     </section>
 
     <button class="scrollToTopBtn">^</button>
+    <section class="footer_container">
+      <div class="footer_social">
+        <a
+          class="social_links"
+          href="mailto:paniaguasanchezadrian@gmail.com"
+          target="_blank"
+          ><i class="fas fa-envelope-square"></i
+        ></a>
+        <a
+          class="social_links"
+          href="https://twitter.com/BreadandwaterA"
+          target="_blank"
+          ><i class="fab fa-twitter-square"></i
+        ></a>
+        <a
+          class="social_links"
+          href="https://www.linkedin.com/in/adrian-paniagua/"
+          target="_blank"
+          ><i class="fab fa-linkedin"></i
+        ></a>
+        <a
+          class="social_links"
+          href="https://github.com/paniaguaadrian"
+          target="_blank"
+          ><i class="fab fa-github-square"></i
+        ></a>
+      </div>
+    </section>
+
     <!-- scripts -->
     <script src="app/js/scrollButton.js"></script>
     <script src="app/js/main.js"></script>
     <script src="app/js/iBookApi.js"></script>
+    <script src="app/js/library/text_animationBooks.js"></script>
     <!-- Boostrap JavaScript -->
     <script
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"

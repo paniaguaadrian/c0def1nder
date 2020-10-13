@@ -1,0 +1,21 @@
+.footer_container {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer_social {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  border-top: 3px solid $y-color;
+  border-bottom: 3px solid $y-color;
+  background-color: #252c41;
+}
+
+.social_links {
+  font-size: 1.5rem;
+  color: $y-color;
+  padding-left: 1rem;
+  margin: 1rem 1rem;
+  padding: 0 0;
+}
