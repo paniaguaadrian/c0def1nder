@@ -334,6 +334,32 @@ button,
   color: #F02B67 !important;
 }
 
+.container_animation_text {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  width: 100%;
+  margin-top: 2rem;
+  margin-bottom: 0.8rem;
+  border-top: 2px solid #F02B67;
+  padding-top: 2rem;
+}
+
+.text {
+  font-family: "Libre Franklin", sans-serif;
+  font-weight: 100;
+  font-size: 2rem;
+  color: #fafafa;
+}
+
+.dud {
+  color: #f02b67;
+}
+
 .posts_container {
   margin-top: 1rem;
   padding-top: 2rem;
