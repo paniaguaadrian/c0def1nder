@@ -164,3 +164,12 @@ a.article-card h2 {
     margin-bottom: 2rem;
   }
 }
+
+.articles_showing_up {
+  @include breakpoint-up(medium) {
+    margin-bottom: 15%;
+  }
+  @include breakpoint-up(large) {
+    margin-bottom: 15%;
+  }
+}
