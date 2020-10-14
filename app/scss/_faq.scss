@@ -7,12 +7,18 @@
   font-size: 1.2rem;
   font-weight: 200;
   color: $b-color;
+  @include breakpoint-up(large) {
+    font-size: 1.5rem;
+  }
 }
 
 .faq_header h1 > span {
   font-size: 1.2rem;
   font-weight: 400;
   color: $y-color;
+  @include breakpoint-up(large) {
+    font-size: 1.5rem;
+  }
 }
 
 .accordion {
@@ -34,10 +40,16 @@
 
 .card-header button {
   color: $b-color;
+  @include breakpoint-up(large) {
+    font-size: 1.2rem;
+  }
 }
 
 .card-body {
   color: black;
+  @include breakpoint-up(large) {
+    font-size: 1.2rem;
+  }
 }
 
 .footer_faq {

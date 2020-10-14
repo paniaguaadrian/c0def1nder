@@ -595,10 +595,22 @@ button,
   color: #f2f2f2;
 }
 
+@media (min-width: 64em) {
+  .faq_header h1 {
+    font-size: 1.5rem;
+  }
+}
+
 .faq_header h1 > span {
   font-size: 1.2rem;
   font-weight: 400;
   color: #f02b67;
+}
+
+@media (min-width: 64em) {
+  .faq_header h1 > span {
+    font-size: 1.5rem;
+  }
 }
 
 .accordion {
@@ -625,8 +637,20 @@ button,
   color: #f2f2f2;
 }
 
+@media (min-width: 64em) {
+  .card-header button {
+    font-size: 1.2rem;
+  }
+}
+
 .card-body {
   color: black;
+}
+
+@media (min-width: 64em) {
+  .card-body {
+    font-size: 1.2rem;
+  }
 }
 
 .footer_faq {
