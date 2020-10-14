@@ -8,6 +8,14 @@
   text-align: center;
   font-weight: 100;
   margin-top: 2rem;
+
+  @include breakpoint-up(medium) {
+    font-size: 2.5rem;
+  }
+
+  @include breakpoint-up(large) {
+    font-size: 3.5rem;
+  }
 }
 
 .hero_header_title span {
@@ -15,6 +23,14 @@
   color: $y-color;
   text-align: center;
   font-weight: 400;
+
+  @include breakpoint-up(medium) {
+    font-size: 3rem;
+  }
+
+  @include breakpoint-up(large) {
+    font-size: 3.5rem;
+  }
 }
 
 .container_animation_text_hero {
@@ -29,7 +45,7 @@
 }
 
 .how_works_container {
-  margin: 4rem 2rem 4rem 2rem;
+  margin: 4rem 2rem 2rem 2rem;
   display: flex;
   text-align: center;
   flex-direction: column;
@@ -48,28 +64,53 @@
 .how_works_text {
   font-size: 1rem;
   margin-right: 1rem;
-}
 
-.how_works_text2 {
-  font-size: 1rem;
-  margin-left: 1rem;
+  @include breakpoint-up(medium) {
+    font-size: 2rem;
+  }
+
+  @include breakpoint-up(large) {
+    font-size: 2.5rem;
+  }
 }
 
 .how_works_image {
   font-size: 2rem;
   color: $y-color;
+
+  @include breakpoint-up(medium) {
+    font-size: 2.5rem;
+  }
+  @include breakpoint-up(large) {
+    font-size: 2.8rem;
+  }
 }
 
 .rock_container {
   display: flex;
   flex-direction: column;
   text-align: center;
-  margin: 2rem 1rem 1.75rem 1rem;
+  margin: 0rem 1rem 1.75rem 1rem;
+  @include breakpoint-up(medium) {
+    margin: 3rem 2rem 6rem 3rem;
+  }
+
+  @include breakpoint-up(large) {
+    margin: 3rem 2rem 5rem 3rem;
+  }
 }
 .rock_text {
   font-size: 1.2rem;
   font-weight: 200;
   text-transform: uppercase;
+
+  @include breakpoint-up(medium) {
+    font-size: 2.5rem;
+  }
+
+  @include breakpoint-up(large) {
+    font-size: 3rem;
+  }
 }
 
 .rock_text span {
@@ -77,4 +118,12 @@
   color: $y-color;
   font-weight: 400;
   text-transform: uppercase;
+
+  @include breakpoint-up(medium) {
+    font-size: 2.5rem;
+  }
+
+  @include breakpoint-up(large) {
+    font-size: 3rem;
+  }
 }

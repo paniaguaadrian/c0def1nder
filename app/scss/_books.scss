@@ -8,6 +8,11 @@ a.book-card {
   margin: 0 auto;
   margin-bottom: 2rem;
   text-decoration: none;
+  @include breakpoint-up(large) {
+    margin: 0 auto;
+    margin-bottom: 2rem;
+    width: 50%;
+  }
 }
 
 a.book-card h1:hover {
@@ -19,6 +24,13 @@ a > .book-img {
   width: 75%;
   padding-bottom: 1rem;
   margin-right: 1rem;
+  @include breakpoint-up(medium) {
+    margin: 1rem 2rem;
+  }
+  @include breakpoint-up(large) {
+    height: 50%;
+    width: 50%;
+  }
 }
 a > .book-img img {
   width: 100%;
@@ -30,6 +42,15 @@ a.book-card h1 {
   margin-bottom: 1rem;
   margin-top: 2rem;
   text-align: center;
+  @include breakpoint-up(medium) {
+    font-size: 1.5rem;
+    margin: 0rem 2rem;
+  }
+  @include breakpoint-up(large) {
+    font-size: 1.5rem;
+    margin-bottom: 2rem !important;
+    margin-top: 2rem !important;
+  }
 }
 a.book-card h2 {
   text-align: center;
@@ -37,4 +58,16 @@ a.book-card h2 {
   font-weight: 400;
   font-size: 0.8rem;
   margin-bottom: 2rem;
+  @include breakpoint-up(medium) {
+    font-size: 1.2rem;
+    font-weight: 200;
+    margin: 0rem 2rem;
+    margin-bottom: 2rem;
+  }
+  @include breakpoint-up(large) {
+    font-size: 1.2rem;
+    font-weight: 200;
+    margin: 0rem 6rem;
+    margin-bottom: 2rem;
+  }
 }

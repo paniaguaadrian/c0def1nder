@@ -7,6 +7,10 @@
   font-size: $font-bsm;
   text-align: center;
   font-weight: 100;
+
+  @include breakpoint-up(medium) {
+    font-size: 2.5rem;
+  }
 }
 
 .posts_header_title span {
@@ -14,6 +18,9 @@
   color: $y-color;
   text-align: center;
   font-weight: 300;
+  @include breakpoint-up(medium) {
+    font-size: 2.5rem;
+  }
 }
 
 .posts_header_subtitle {
@@ -30,6 +37,17 @@
   margin-bottom: 2rem;
   margin-top: 1rem;
   padding: 0rem 2rem;
+
+  @include breakpoint-up(large) {
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+    padding: 0rem 10rem;
+  }
+  @include breakpoint-up(xlarge) {
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+    padding: 0rem 30rem;
+  }
 }
 
 .btn_post_tags {
@@ -56,11 +74,19 @@
   text-align: center;
   font-weight: 100;
   margin-bottom: 3.5rem;
+
+  @include breakpoint-up(medium) {
+    font-size: 2rem;
+  }
 }
 
 .posts_articles_title span {
   color: $y-color;
   font-weight: 300;
+
+  @include breakpoint-up(medium) {
+    font-size: 2rem;
+  }
 }
 
 // * Articles from API
@@ -75,6 +101,12 @@ a.article-card {
   margin: 0 auto;
   margin-bottom: 2rem;
   text-decoration: none;
+
+  @include breakpoint-up(large) {
+    margin: 0 auto;
+    margin-bottom: 2rem;
+    width: 75%;
+  }
 }
 
 a.article-card h1:hover {
@@ -86,6 +118,13 @@ a > .user-img {
   width: 75%;
   padding-bottom: 1rem;
   margin-right: 1rem;
+  @include breakpoint-up(medium) {
+    margin: 1rem 2rem;
+  }
+  @include breakpoint-up(large) {
+    height: 50%;
+    width: 50%;
+  }
 }
 a > .user-img img {
   width: 100%;
@@ -96,6 +135,15 @@ a.article-card h1 {
   font-weight: 500;
   margin-bottom: 1rem;
   text-align: center;
+  @include breakpoint-up(medium) {
+    font-size: 1.5rem;
+    margin: 0rem 2rem;
+    margin-bottom: 2rem !important;
+  }
+  @include breakpoint-up(large) {
+    font-size: 1.5rem;
+    margin: 0rem 4rem;
+  }
 }
 a.article-card h2 {
   text-align: center;
@@ -103,4 +151,16 @@ a.article-card h2 {
   font-weight: 400;
   font-size: 0.8rem;
   margin-bottom: 2rem;
+  @include breakpoint-up(medium) {
+    font-size: 1.2rem;
+    font-weight: 200;
+    margin: 0rem 2rem;
+    margin-bottom: 2rem;
+  }
+  @include breakpoint-up(large) {
+    font-size: 1.2rem;
+    font-weight: 200;
+    margin: 0rem 6rem;
+    margin-bottom: 2rem;
+  }
 }

@@ -356,6 +356,24 @@ button,
           flex-direction: column;
 }
 
+@media (min-width: 40em) {
+  .footer_container {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    height: 70px;
+  }
+}
+
+@media (min-width: 64em) {
+  .footer_container {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    height: 70px;
+  }
+}
+
 .footer_social {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -392,11 +410,35 @@ button,
   margin-top: 2rem;
 }
 
+@media (min-width: 40em) {
+  .hero_header_title {
+    font-size: 2.5rem;
+  }
+}
+
+@media (min-width: 64em) {
+  .hero_header_title {
+    font-size: 3.5rem;
+  }
+}
+
 .hero_header_title span {
   font-size: 1.7rem;
   color: #f02b67;
   text-align: center;
   font-weight: 400;
+}
+
+@media (min-width: 40em) {
+  .hero_header_title span {
+    font-size: 3rem;
+  }
+}
+
+@media (min-width: 64em) {
+  .hero_header_title span {
+    font-size: 3.5rem;
+  }
 }
 
 .container_animation_text_hero {
@@ -415,7 +457,7 @@ button,
 }
 
 .how_works_container {
-  margin: 4rem 2rem 4rem 2rem;
+  margin: 4rem 2rem 2rem 2rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -452,14 +494,33 @@ button,
   margin-right: 1rem;
 }
 
-.how_works_text2 {
-  font-size: 1rem;
-  margin-left: 1rem;
+@media (min-width: 40em) {
+  .how_works_text {
+    font-size: 2rem;
+  }
+}
+
+@media (min-width: 64em) {
+  .how_works_text {
+    font-size: 2.5rem;
+  }
 }
 
 .how_works_image {
   font-size: 2rem;
   color: #f02b67;
+}
+
+@media (min-width: 40em) {
+  .how_works_image {
+    font-size: 2.5rem;
+  }
+}
+
+@media (min-width: 64em) {
+  .how_works_image {
+    font-size: 2.8rem;
+  }
 }
 
 .rock_container {
@@ -471,7 +532,19 @@ button,
       -ms-flex-direction: column;
           flex-direction: column;
   text-align: center;
-  margin: 2rem 1rem 1.75rem 1rem;
+  margin: 0rem 1rem 1.75rem 1rem;
+}
+
+@media (min-width: 40em) {
+  .rock_container {
+    margin: 3rem 2rem 6rem 3rem;
+  }
+}
+
+@media (min-width: 64em) {
+  .rock_container {
+    margin: 3rem 2rem 5rem 3rem;
+  }
 }
 
 .rock_text {
@@ -480,11 +553,35 @@ button,
   text-transform: uppercase;
 }
 
+@media (min-width: 40em) {
+  .rock_text {
+    font-size: 2.5rem;
+  }
+}
+
+@media (min-width: 64em) {
+  .rock_text {
+    font-size: 3rem;
+  }
+}
+
 .rock_text span {
   font-size: 1.4rem;
   color: #f02b67;
   font-weight: 400;
   text-transform: uppercase;
+}
+
+@media (min-width: 40em) {
+  .rock_text span {
+    font-size: 2.5rem;
+  }
+}
+
+@media (min-width: 64em) {
+  .rock_text span {
+    font-size: 3rem;
+  }
 }
 
 .faq_header_container {
@@ -507,6 +604,13 @@ button,
 .accordion {
   margin: 1rem 1.5rem;
   font-family: "Libre Franklin", sans-serif;
+}
+
+@media (min-width: 64em) {
+  .accordion {
+    margin-left: 15rem;
+    margin-right: 15rem;
+  }
 }
 
 .card {
@@ -532,6 +636,24 @@ button,
   height: 70px;
 }
 
+@media (min-width: 40em) {
+  .footer_faq {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+  }
+}
+
+@media (min-width: 64em) {
+  .footer_faq {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+  }
+}
+
 .container_animation_text {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
@@ -554,6 +676,12 @@ button,
   color: #fafafa;
 }
 
+@media (min-width: 40em) {
+  .text {
+    font-size: 3rem;
+  }
+}
+
 .dud {
   color: #f02b67;
 }
@@ -569,11 +697,23 @@ button,
   font-weight: 100;
 }
 
+@media (min-width: 40em) {
+  .posts_header_title {
+    font-size: 2.5rem;
+  }
+}
+
 .posts_header_title span {
   font-size: 1.7rem;
   color: #f02b67;
   text-align: center;
   font-weight: 300;
+}
+
+@media (min-width: 40em) {
+  .posts_header_title span {
+    font-size: 2.5rem;
+  }
 }
 
 .posts_header_subtitle {
@@ -594,6 +734,22 @@ button,
   margin-bottom: 2rem;
   margin-top: 1rem;
   padding: 0rem 2rem;
+}
+
+@media (min-width: 64em) {
+  .buttons_container {
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+    padding: 0rem 10rem;
+  }
+}
+
+@media (min-width: 87.5em) {
+  .buttons_container {
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+    padding: 0rem 30rem;
+  }
 }
 
 .btn_post_tags {
@@ -631,9 +787,21 @@ button,
   margin-bottom: 3.5rem;
 }
 
+@media (min-width: 40em) {
+  .posts_articles_title {
+    font-size: 2rem;
+  }
+}
+
 .posts_articles_title span {
   color: #f02b67;
   font-weight: 300;
+}
+
+@media (min-width: 40em) {
+  .posts_articles_title span {
+    font-size: 2rem;
+  }
 }
 
 a.article-card {
@@ -657,6 +825,14 @@ a.article-card {
   text-decoration: none;
 }
 
+@media (min-width: 64em) {
+  a.article-card {
+    margin: 0 auto;
+    margin-bottom: 2rem;
+    width: 75%;
+  }
+}
+
 a.article-card h1:hover {
   color: #424949;
 }
@@ -666,6 +842,19 @@ a > .user-img {
   width: 75%;
   padding-bottom: 1rem;
   margin-right: 1rem;
+}
+
+@media (min-width: 40em) {
+  a > .user-img {
+    margin: 1rem 2rem;
+  }
+}
+
+@media (min-width: 64em) {
+  a > .user-img {
+    height: 50%;
+    width: 50%;
+  }
 }
 
 a > .user-img img {
@@ -680,12 +869,45 @@ a.article-card h1 {
   text-align: center;
 }
 
+@media (min-width: 40em) {
+  a.article-card h1 {
+    font-size: 1.5rem;
+    margin: 0rem 2rem;
+    margin-bottom: 2rem !important;
+  }
+}
+
+@media (min-width: 64em) {
+  a.article-card h1 {
+    font-size: 1.5rem;
+    margin: 0rem 4rem;
+  }
+}
+
 a.article-card h2 {
   text-align: center;
   color: #f2f2f2;
   font-weight: 400;
   font-size: 0.8rem;
   margin-bottom: 2rem;
+}
+
+@media (min-width: 40em) {
+  a.article-card h2 {
+    font-size: 1.2rem;
+    font-weight: 200;
+    margin: 0rem 2rem;
+    margin-bottom: 2rem;
+  }
+}
+
+@media (min-width: 64em) {
+  a.article-card h2 {
+    font-size: 1.2rem;
+    font-weight: 200;
+    margin: 0rem 6rem;
+    margin-bottom: 2rem;
+  }
 }
 
 a.book-card {
@@ -709,6 +931,14 @@ a.book-card {
   text-decoration: none;
 }
 
+@media (min-width: 64em) {
+  a.book-card {
+    margin: 0 auto;
+    margin-bottom: 2rem;
+    width: 50%;
+  }
+}
+
 a.book-card h1:hover {
   color: #424949;
 }
@@ -718,6 +948,19 @@ a > .book-img {
   width: 75%;
   padding-bottom: 1rem;
   margin-right: 1rem;
+}
+
+@media (min-width: 40em) {
+  a > .book-img {
+    margin: 1rem 2rem;
+  }
+}
+
+@media (min-width: 64em) {
+  a > .book-img {
+    height: 50%;
+    width: 50%;
+  }
 }
 
 a > .book-img img {
@@ -733,12 +976,45 @@ a.book-card h1 {
   text-align: center;
 }
 
+@media (min-width: 40em) {
+  a.book-card h1 {
+    font-size: 1.5rem;
+    margin: 0rem 2rem;
+  }
+}
+
+@media (min-width: 64em) {
+  a.book-card h1 {
+    font-size: 1.5rem;
+    margin-bottom: 2rem !important;
+    margin-top: 2rem !important;
+  }
+}
+
 a.book-card h2 {
   text-align: center;
   color: #f2f2f2;
   font-weight: 400;
   font-size: 0.8rem;
   margin-bottom: 2rem;
+}
+
+@media (min-width: 40em) {
+  a.book-card h2 {
+    font-size: 1.2rem;
+    font-weight: 200;
+    margin: 0rem 2rem;
+    margin-bottom: 2rem;
+  }
+}
+
+@media (min-width: 64em) {
+  a.book-card h2 {
+    font-size: 1.2rem;
+    font-weight: 200;
+    margin: 0rem 6rem;
+    margin-bottom: 2rem;
+  }
 }
 
 .signUpMobile_container {
