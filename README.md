@@ -2,7 +2,7 @@
 
 If you're looking to learn from the best developers in the world, you're in the right place! **_c0def1nder_** helps you to find the best blog post and books about programming languages. Do you need new challenges? Informations? Code alongs? And the most important thing, updated?! Let use our awesome platform to find it out and improve your code understanding today!
 
-**_c0def1nder_** was developed using JavaScript as part of the [Ironhack](https://www.ironhack.com/) developer bootcamp (WebDev-FT-092020) using the [DEV](https://www.dev.to/) API and (this books api as well) and [SASS](https://sass-lang.com/) as a compiler for the style.
+**_c0def1nder_** was developed using JavaScript as part of the [Ironhack](https://www.ironhack.com/) developer bootcamp (WebDev-FT-092020) using the [DEV](https://www.dev.to/) API and [Google.Books](https://www.googleapis.com/books/v1/volumes?q=) API and [SASS](https://sass-lang.com/) as a compiler for the style.
 
 ## Minimum Viable Product
 
@@ -27,19 +27,41 @@ The **MVP** will cover the following:
   - posts.html
   - books.html
   - faq.html
+  - signInMobile.html
+  - signUpMobile.html
+  - README.md
+  - .gitignore
   - **app/**
     - **js/**
+      - **library/**
+        - text_animationBooks.js
+        - text_animationHome.js
+        - text_animationPosts.js
       - main.js
       - DataBase.js
       - Login.js
       - Signup.js
+      - User.js
       - Validator.js
-      - devtoApiService.js
+      - devtoApi.js
+      - iBookApi.js
+      - scrolButton.js
+
     - **scss/**
       - style.scss
       - \_globals.scss
       - \_variables.scss
-      - \_(and so on...)
+      - \_animations.scss
+      - \_books.scss
+      - \_buttonsPost.scss
+      - \_faq.scss
+      - \_hero.scss
+      - \_login.scss
+      - \_mixins.scss
+      - \_navbar.scss
+      - \_posts.scss
+      - \_scrollTopButton.scss
+      - \_textAnimation.scss
       - style.css (compiler)
       - style.css.map (compiler)
   - **images/**
@@ -53,6 +75,10 @@ The **MVP** will cover the following:
 ### Git
 
 [Gihub Repo URL](https://github.com/paniaguaadrian/c0def1nder)
+
+### Deployment
+
+[Deployment URL](https://paniaguaadrian.github.io/c0def1nder/)
 
 ### Dev.to API
 
