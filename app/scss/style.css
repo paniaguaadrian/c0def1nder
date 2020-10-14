@@ -226,6 +226,7 @@ button,
   font-size: 1.5rem;
   letter-spacing: 0.1rem;
   border-bottom: 2px solid #f02b67;
+  z-index: 9999;
 }
 
 .navbar__logotext span {
@@ -239,6 +240,7 @@ button,
 }
 
 .overlay {
+  z-index: 99;
   opacity: 0;
   position: fixed;
   top: 0;
@@ -248,9 +250,18 @@ button,
   background-color: #202637;
 }
 
+.header {
+  z-index: 999;
+}
+
 .header .hmb__menu {
+  z-index: 999;
   margin-top: 0.5rem;
   margin-right: 1rem;
+}
+
+.header.open {
+  z-index: 199;
 }
 
 .header.open .header__toggle > span:first-child {
@@ -283,6 +294,7 @@ button,
 }
 
 .header__menu {
+  z-index: 999;
   position: absolute;
   width: calc(100% - 3rem);
   left: 50%;
@@ -473,6 +485,48 @@ button,
   color: #f02b67;
   font-weight: 400;
   text-transform: uppercase;
+}
+
+.faq_header_container {
+  margin: 2rem;
+  text-align: center;
+}
+
+.faq_header h1 {
+  font-size: 1.2rem;
+  font-weight: 200;
+  color: #f2f2f2;
+}
+
+.faq_header h1 > span {
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: #f02b67;
+}
+
+.accordion {
+  margin: 1rem 1.5rem;
+  font-family: "Libre Franklin", sans-serif;
+}
+
+.card {
+  border: 2px solid #f02b67;
+}
+
+.card-header {
+  background-color: #2b3349;
+}
+
+.card-header button {
+  color: #f2f2f2;
+}
+
+.card-body {
+  color: black;
+}
+
+.footer_faq {
+  margin-top: 25rem;
 }
 
 .container_animation_text {

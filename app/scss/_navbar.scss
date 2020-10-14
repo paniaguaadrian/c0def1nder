@@ -2,6 +2,7 @@
   font-size: 1.5rem;
   letter-spacing: 0.1rem;
   border-bottom: 2px solid $y-color;
+  z-index: 9999;
 }
 
 .navbar__logotext span {
@@ -15,6 +16,7 @@
 }
 
 .overlay {
+  z-index: 99;
   opacity: 0;
   position: fixed;
   top: 0;
@@ -25,12 +27,15 @@
 }
 
 .header {
+  z-index: 999;
   .hmb__menu {
+    z-index: 999;
     margin-top: 0.5rem;
     margin-right: 1rem;
   }
   // Hamburger open styles
   &.open {
+    z-index: 199;
     .header__toggle {
       > span:first-child {
         transform: rotate(45deg);
@@ -64,6 +69,7 @@
   }
 
   &__menu {
+    z-index: 999;
     position: absolute;
     width: calc(100% - 3rem);
     left: 50%;
